@@ -20,11 +20,13 @@ export default function Intro(){
     const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
 
     return (
+        // This section is divided into 3 parts.
         <section
             ref={ref}
             id='home'
             className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
         >
+            {/* User Image + Hey emoji */}
             <div className="flex items-center justify-center">
                 <div className="relative">
 
@@ -76,6 +78,7 @@ export default function Intro(){
                 </div>
             </div>
 
+            {/* Introduction text */}
             <motion.h1
                 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl "
                 initial={
@@ -97,6 +100,7 @@ export default function Intro(){
 
             </motion.h1>    
 
+            {/* 4 link buttons to contact me */}
             <motion.div
                 className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
                 initial={
