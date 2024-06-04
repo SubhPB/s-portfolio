@@ -2,6 +2,7 @@
 
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
+import About from "@/components/about";
 
 export default function Home() {
   return (
@@ -10,7 +11,10 @@ export default function Home() {
       <div className="grid place-content-center h-dvh w-full">
         <Intro />
       </div>
+
       <SectionDivider />
+      
+      <About />
     </main>
   )
 }
