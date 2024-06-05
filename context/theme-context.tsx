@@ -3,8 +3,6 @@
 'use client';
 
 import React, {useEffect, useState, createContext, useContext} from "react";
-import { isStringObject } from "util/types";
-
 const themes = ['light', 'dark'] as const;
 
 type Theme = (typeof themes)[number]
