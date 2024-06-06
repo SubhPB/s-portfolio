@@ -92,7 +92,7 @@ function Contact() {
                     onChange={handleChange}
                 />
                 <textarea
-                    className="h-52 my-3 rounded-lg p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none shadow-sm shadow-black"
+                    className="min-h-[8rem] max-h-[18rem] h-52 my-3 rounded-lg p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none shadow-sm shadow-black"
                     name="body"
                     placeholder="Your message"
                     value={body}
