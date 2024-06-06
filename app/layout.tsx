@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
@@ -30,7 +31,8 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
 
             <Header/>
-            {children}
+              {children}
+            <Footer />
 
             <ThemeSwitch />
 
