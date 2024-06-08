@@ -12,7 +12,7 @@ import Whatsapp from "@/components/whatsapp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next App",
+  title: "@sherwin",
   description: "Next-JS application.",
 };
 
