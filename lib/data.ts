@@ -51,6 +51,14 @@ export const journeyData = [
     date: "2020-2021",
   },
   {
+    title: "Project Coordinator",
+    location: "Kerala, In",
+    description:
+      "I had a good time working as project coordinator at Tummy Time, received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at Tummy Time",
+    icon: React.createElement(BiMath),
+    date: "2020-2024",
+  },
+  {
     title: "Academic Counselor",
     location: "Kerala, In",
     description:
