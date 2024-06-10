@@ -6,6 +6,8 @@ import { GiPublicSpeaker } from "react-icons/gi";
 import { SiAircanada } from "react-icons/si";
 import { FaBoxes } from "react-icons/fa";
 
+import { BiBriefcase } from "react-icons/bi";
+
 export const links = [
   {
     name: "Home",
@@ -54,9 +56,9 @@ export const journeyData = [
     title: "Project Coordinator",
     location: "Kerala, In",
     description:
-      "I had a good time working as project coordinator at Tummy Time, received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at Tummy Time",
-    icon: React.createElement(BiMath),
-    date: "2020-2024",
+      "I had a good time working as project coordinator at Tummy Time, implemented innovative ideas and technologies in cake baking, such as automated mixing machines and baking equipment, along with ingredient usage charts to avoid waste of food resources, resulting in a 12% reduction in resource wastage and improved efficiency, product quality, and customer satisfaction",
+    icon: React.createElement(BiBriefcase),
+    date: "2020",
   },
   {
     title: "Academic Counselor",
@@ -101,7 +103,19 @@ export const experienceData = [
       'https://images.pexels.com/photos/3782134/pexels-photo-3782134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ]
   },
-  //2
+  //2 righttop
+  {
+    title: "Project Coordinator",
+    description:
+      `Received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at tummy Time.`,
+    tags: ["Innovative Ideas", "Team lead"],
+    imageUrls: [
+      'https://images.pexels.com/photos/6532591/pexels-photo-6532591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/6120394/pexels-photo-6120394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/6120396/pexels-photo-6120396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ]
+  },
+  //3
   {
     title: "Orientation Conductor",
     description:
@@ -115,20 +129,6 @@ export const experienceData = [
       'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ]
   },
-  //3
-  {
-    title: "Counsultant",
-    description:
-      `Supported project management initiatives as an Academic Counselor at Avodha Edu Tech, ensuring 
-      academic success and satisfaction for students through guidance and contributing to sales growth of 
-      5% during the same period while delivering inventive resolutions`,
-    tags: ["Planing", "Communication", 'Guidence'],
-    imageUrls: [
-      'https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    ]
-  },
   //4
   {
     title: "Finance Management",
@@ -140,6 +140,20 @@ export const experienceData = [
       'https://images.pexels.com/photos/5466806/pexels-photo-5466806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/7821708/pexels-photo-7821708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/8296977/pexels-photo-8296977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    ]
+  },
+  //5
+  {
+    title: "Counsultant",
+    description:
+      `Supported project management initiatives as an Academic Counselor at Avodha Edu Tech, ensuring 
+      academic success and satisfaction for students through guidance and contributing to sales growth of 
+      5% during the same period while delivering inventive resolutions`,
+    tags: ["Planing", "Communication", 'Guidence'],
+    imageUrls: [
+      'https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     ]
   },
 ] as const;
