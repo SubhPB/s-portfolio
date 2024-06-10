@@ -35,7 +35,7 @@ function Contact() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         window.open(
-            `mailto:${process.env.NEXT_PUBLIC_EMAIL!}?subject=${subject}&body=${body}`,
+            `mailto:sherwinj1999@gmail.com?subject=${subject}&body=${body}`,
             '_blank', 'noopener,noreferrer'
         );
         setFormData(defaultForm);
@@ -72,8 +72,8 @@ function Contact() {
 
             <p className="text-gray-700 -mt-6 dark:text-white/80">
                 Please contact me directly at{" "}
-                <a className="underline" href="mailto:example@gmail.com">
-                example@gmail.com
+                <a className="underline" href="mailto:sherwinj1999@gmail.com">
+                sherwinj1999@gmail.com
                 </a>{" "}
                 or through this form.
             </p>

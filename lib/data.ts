@@ -8,6 +8,9 @@ import { FaBoxes } from "react-icons/fa";
 
 import { BiBriefcase } from "react-icons/bi";
 
+import cspoImg from '@/public/cspo.png';
+import capmImg from '@/public/capm.jpeg';
+
 export const links = [
   {
     name: "Home",
@@ -38,7 +41,7 @@ export const links = [
 export const journeyData = [
   {
     title: "Bachelor's Degree In Commerce",
-    location: "Kerala, In",
+    location: "Kerala, India",
     description:
     "I graduated with BCOM degree after 3 years of studying at Mahatma Gandhi University. I immediately found a job as an accountant. ",
     icon: React.createElement(LuGraduationCap),
@@ -46,7 +49,7 @@ export const journeyData = [
   },
   {
     title: "Accountant",
-    location: "Vaikom, In",
+    location: "Vaikom, India",
     description:
       "I worked as an accountant for more than 1 year where i planned and executed financial projects, ensuring compliance with regulatory standards and deadlines.",
     icon: React.createElement(BiMath),
@@ -54,7 +57,7 @@ export const journeyData = [
   },
   {
     title: "Project Coordinator",
-    location: "Kerala, In",
+    location: "Kerala, India",
     description:
       "I had a good time working as project coordinator at Tummy Time, implemented innovative ideas and technologies in cake baking, such as automated mixing machines and baking equipment, along with ingredient usage charts to avoid waste of food resources, resulting in a 12% reduction in resource wastage and improved efficiency, product quality, and customer satisfaction",
     icon: React.createElement(BiBriefcase),
@@ -62,7 +65,7 @@ export const journeyData = [
   },
   {
     title: "Academic Counselor",
-    location: "Kerala, In",
+    location: "Kerala, India",
     description:
       `I got the opportunity by Avodha education institute to work as academic counselor where i took initiative in developing and implementing student success programs, leading to improved academic 
       performance. Raised awareness and presented various offerings, of IT, language, and self-development 
@@ -94,27 +97,31 @@ export const experienceData = [
   {
     title: "CAPM",
     description:
-      `Earned the CAPM credential from the Project Management Institute (PMI), demonstrating proficiency in project management principles and methodologies`,
-    tags: ["Agile", "Scrum"],
+      `Earned the CAPM credentials from the Project Management Institute (PMI) and Scrum Alliance, 
+      demonstrating proficiency in project management and product ownership principles and methodologies.`,
+    tags: ['Certified',"Agile", "Scrum", "Business Analysis"],
     imageUrls: [
-      'https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7680052/pexels-photo-7680052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/3782233/pexels-photo-3782233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/3782134/pexels-photo-3782134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ]
+      capmImg
+    ],
+    imgStyle: {
+      objectPosition: '-50px'
+    }
   },
-  //2 righttop
+
+  //new
   {
-    title: "Project Coordinator",
+    title: "CSPO",
     description:
-      `Received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at tummy Time.`,
-    tags: ["Innovative Ideas", "Team lead"],
+      `Earned the CSPO credentials from the Project Management Institute (PMI) and Scrum Alliance.`,
+    tags: ['Certified', "Product Backlog Management", "Stakeholder Management", "Scrum"],
     imageUrls: [
-      'https://images.pexels.com/photos/6532591/pexels-photo-6532591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/6120394/pexels-photo-6120394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/6120396/pexels-photo-6120396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ]
+      cspoImg
+    ],
+    imgStyle: {
+      objectPosition: '45px 20px'
+    }
   },
+
   //3
   {
     title: "Orientation Conductor",
@@ -127,20 +134,21 @@ export const experienceData = [
       'https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/5212687/pexels-photo-5212687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ]
+    ],
+    imgStyle: {}
   },
-  //4
+  //2 righttop
   {
-    title: "Finance Management",
+    title: "Project Coordinator",
     description:
-      `In past work experiences, prepared financial statements and reports for analysis and decision-making, contributing to informed 
-      financial management and strategic planning`,
-    tags: ["Strategic Approach", "Management", "Accountability"],
+      `Received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at tummy Time.`,
+    tags: ["Innovative Ideas", "Team lead"],
     imageUrls: [
-      'https://images.pexels.com/photos/5466806/pexels-photo-5466806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7821708/pexels-photo-7821708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/8296977/pexels-photo-8296977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    ]
+      'https://images.pexels.com/photos/6532591/pexels-photo-6532591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/6120394/pexels-photo-6120394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/6120396/pexels-photo-6120396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    imgStyle: {}
   },
   //5
   {
@@ -154,8 +162,24 @@ export const experienceData = [
       'https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    ]
+    ],
+    imgStyle: {}
   },
+  //4
+  {
+    title: "Finance Management",
+    description:
+      `In past work experiences, prepared financial statements and reports for analysis and decision-making, contributing to informed 
+      financial management and strategic planning`,
+    tags: ["Strategic Approach", "Management", "Accountability"],
+    imageUrls: [
+      'https://images.pexels.com/photos/5466806/pexels-photo-5466806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/7821708/pexels-photo-7821708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/8296977/pexels-photo-8296977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    ],
+    imgStyle: {}
+  },
+
 ] as const;
 
 export const skillsData = [' Scrum Methodologies ', ' Microsoft Office 365 ', 'Microsoft Project', ' Project Libra', ' Jira', ' Asana', 'Cross Functional', ' Collaboration ', 'Sprint Planning ', 'Project Coordination ', ' Critical Thinking ', ' Team Leadership ', ' Problem Solving ', ' Interpersonal Skills', ' Information Technology', ' Scope Management ', 'Time Management', 'Validate Scope ', 'Backlog Management', ' Communication skills'] as const;

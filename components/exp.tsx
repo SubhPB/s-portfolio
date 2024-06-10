@@ -8,12 +8,13 @@ import { useRef } from 'react';
 
 import {motion, useScroll, useTransform} from 'framer-motion';
 import { experienceData } from '@/lib/data';
+import { chooseRandomly } from '@/lib/func';
 
 type ExpProps = (typeof experienceData)[number];
 
 function Exp(
     {
-        title, description, tags, imageUrl
+        title, description, tags, imageUrls, imgStyle
     }: ExpProps
 ) {
 
@@ -74,10 +75,12 @@ function Exp(
                     </ul>
 
                     <Image
-                        src={imageUrl}
-                        alt="Project I worked on"
+                        src={chooseRandomly([...imageUrls])}
+                        height={550}
+                        width={350}
+                        alt="img"
                         quality={95}
-                        className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+                        className="absolute hidden sm:block top-10 -right-36 w-[28.25rem] rounded-t-lg shadow-2xl
                         transition 
                         group-hover:scale-[1.04]
                         group-hover:-translate-x-3
@@ -89,6 +92,9 @@ function Exp(
                         group-even:group-hover:rotate-2
 
                         group-even:right-[initial] group-even:-left-40"
+                        style={
+                            imgStyle || {}
+                        }
                     />
                 </div>
             </section>
