@@ -93,8 +93,8 @@ export default function Intro(){
                     }
                 }
             >
-                <span className="font-bold">Hello, I'm Sherwin.</span> I'm a dynamic professional with a {" "}
-                <span className="font-bold"> Master's in Business Administration </span> specializing in <span className="font-bold">Project Management.</span> {" "}
+                <span className="font-bold">Hello, I&apos;m Sherwin.</span> I&apos;m a dynamic professional with a {" "}
+                <span className="font-bold"> Master&apos;s in Business Administration </span> specializing in <span className="font-bold">Project Management.</span> {" "}
                 With a proven track record in academic counseling and expertise in both 
                 <span className="font-bold"> Agile and Waterfall </span> methodologies.
 
