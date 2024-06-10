@@ -13,7 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "@sherwin",
-  description: "Next-JS application.",
+  description: `Results-oriented Project Coordinator with a Master of Business Administration in Project Management, CSPO (Certified 
+    Scrum Product Owner), and CAPM (Certified Associate of Project Management) certifications. Proficient in Agile and 
+    Waterfall methodologies`,
 };
 
 export default function RootLayout({
