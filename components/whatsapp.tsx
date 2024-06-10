@@ -7,7 +7,7 @@ function Whatsapp() {
 
     const handleClick = () => {
         window.open(
-            'https://wa.me/12368654210',
+            'https://wa.me/17788633795',
             '_blank', 'noopener,noreferrer'
         )
     }
