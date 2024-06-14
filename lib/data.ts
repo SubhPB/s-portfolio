@@ -97,7 +97,7 @@ export const experienceData = [
   {
     title: "CAPM",
     description:
-      `Earned the CAPM credentials from the Project Management Institute (PMI) and Scrum Alliance, 
+      `Earned the CAPM credentials from the Project Management Institute (PMI), 
       demonstrating proficiency in project management and product ownership principles and methodologies.`,
     tags: ['Certified',"Agile", "Scrum", "Business Analysis"],
     imageUrls: [
@@ -112,13 +112,17 @@ export const experienceData = [
   {
     title: "CSPO",
     description:
-      `Earned the CSPO credentials from the Project Management Institute (PMI) and Scrum Alliance.`,
+      `Earned the CSPO credentials from the Scrum Alliance.`,
     tags: ['Certified', "Product Backlog Management", "Stakeholder Management", "Scrum"],
     imageUrls: [
-      cspoImg
+      cspoImg,
+      // 'https://www.scrumalliance.org/ScrumRedesignDEVSite/media/badge-library/SAI_BadgeSizes_DigitalBadging_CSPO.png'
     ],
     imgStyle: {
-      objectPosition: '45px 20px'
+      objectPosition: 'right',
+      height: '15rem',
+      width: '20rem',
+      left: '-1rem'
     }
   },
 
@@ -141,7 +145,7 @@ export const experienceData = [
   {
     title: "Project Coordinator",
     description:
-      `Received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at tummy Time.`,
+      `Received the Employee of the Month award four times in recognition of outstanding performance, dedication, and contributions to the success of projects at Tummy Time Cakes.`,
     tags: ["Innovative Ideas", "Team lead"],
     imageUrls: [
       'https://images.pexels.com/photos/6532591/pexels-photo-6532591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',

@@ -13,7 +13,7 @@ const nextConfig = {
         },
         {
           protocol: "https",
-          hostname: "media.licdn.com",
+          hostname: "www.scrumalliance.org",
         },
       ],
     },
